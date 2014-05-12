@@ -1,0 +1,11 @@
+{
+  "name": "chivebot-sisk",
+  "version": "0.0.1",
+  "description": "a chivebot plugin to determine how hot my apartment is",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean-Charles Sisk <jeancharles@paypal.com>",
+  "license": "MIT"
+}
