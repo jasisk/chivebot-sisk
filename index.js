@@ -40,7 +40,7 @@ module.exports = {
       plugin.plugins.chivebot.registerCommand('sisk', function (raw, args, cb) {
         var command = args[2] || 'temp';
         if (commands[command]) {
-          command(cb);
+          commands[command](cb);
         } else {
           cb(null, 'I don\'t know how to do that.');
         }
