@@ -7,7 +7,6 @@ var http = require('http');
 
 var commands = {
     temp: function (cb) {
-
         Wreck.get('http://temp.sisk.io/', { json: true }, function (err, res, payload) {
             if (err) {
                 cb(err);
